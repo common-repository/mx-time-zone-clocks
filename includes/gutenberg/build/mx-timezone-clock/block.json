@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mxdfmtzc/mx-timezone-clock",
+  "version": "0.1.3",
+  "title": "MX Timezone Clock",
+  "category": "widgets",
+  "icon": "clock",
+  "description": "Add MX Timezone Clock",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "clock_id": {
+      "type": "string",
+      "default": "mx-time-zone-clock"
+    },
+    "time_zone": {
+      "type": "string",
+      "default": "Europe/London"
+    },
+    "city_name": {
+      "type": "string",
+      "default": "London"
+    },
+    "time_format": {
+      "type": "number",
+      "default": 24
+    },
+    "digital_clock": {
+      "type": "string",
+      "default": "false"
+    },
+    "lang": {
+      "type": "string",
+      "default": "en-US"
+    },
+    "lang_for_date": {
+      "type": "string",
+      "default": "en-US"
+    },
+    "show_days": {
+      "type": "string",
+      "default": "false"
+    },
+    "clock_font_size": {
+      "type": "number",
+      "default": 14
+    },
+    "show_seconds": {
+      "type": "string",
+      "default": "true"
+    },
+    "arrow_type": {
+      "type": "string",
+      "default": "classical"
+    },
+    "super_simple": {
+      "type": "string",
+      "default": "false"
+    },
+    "arrows_color": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "clock_type": {
+      "type": "string",
+      "default": "clock-face2.png"
+    },
+    "clock_upload": {
+      "type": "string",
+      "default": "false"
+    },
+    "mediaId": {
+      "type": "string",
+      "default": null
+    },
+    "text_align": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+  "textdomain": "mxmtzc-domain",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
